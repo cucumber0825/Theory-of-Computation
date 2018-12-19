@@ -44,7 +44,7 @@ python3 app.py
 ```
 
 ## Finite State Machine
-<img src = 'img/StatePhoto.jpg' width="300px">
+<img src = 'img/StatePhoto.png' width="300px">
 
 ## Usage
 The initial state is set to `user`.
