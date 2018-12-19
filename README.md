@@ -60,8 +60,8 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 			* Reply: two button of youtube and voicetube
 		* Input: "社群網站"
 			* Reply: three button of ig and dcard and ptt
-				* Input: "好阿"
-					* Reply: 0~5 ptt articles and go_back to user
+			* Input: "好阿"
+				* Reply: 0~5 ptt articles and go_back to user
 	* Input: "抽妹子"
 		* Reply: a photo of beauty and "才一張你一定覺得不夠!"
 		* Input: "對阿"
@@ -75,7 +75,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		* Input: "影片"
 			* Reply: a youtube video and "想看其他youtube影片嗎?"
 			* Input: "好阿"
-					* Reply: a youtube video and go_back to user
+				* Reply: a youtube video and go_back to user
 	* Input: "抽妹子"
 		* Reply: "I'm entering state2"
 
