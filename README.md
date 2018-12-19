@@ -52,10 +52,11 @@ The initial state is set to `user`.
 Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
 
 * user
+一開始打開messenger可以先輸入以下四種
 	* Input: "hi cucumber"
-		* Reply: "今天想做什麼?\n要來點~button~嗎?\n還是想要~抽妹子~?\n還是~來首音樂吧~"
+		* Reply: "今天想做什麼?\n要來點button嗎?\n還是想要抽妹子?\n還是來首音樂吧"
 	* Input: "button"
-		* Reply: "你想看~影片~還是要~社群網站~?"
+		* Reply: "你想看影片還是要社群網站?"
 		* Input: "影片"
 			* Reply: two button of youtube and voicetube
 		* Input: "社群網站"
@@ -67,7 +68,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 		* Input: "對阿"
 			* Reply: three photos of beauty and go_back to user
 	* Input: "來首音樂吧"
-		* Reply: a music and "你覺得~好聽~嗎\n還是你想看youtube~影片~?"
+		* Reply: a music and "你覺得好聽嗎\n還是你想看youtube影片?"
 		* Input: "好聽"
 			* Reply: a music and "很好聽齁我也這麼覺得!要不要再一首?"
 			* Input: "好阿"
