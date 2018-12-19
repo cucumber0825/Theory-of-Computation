@@ -66,7 +66,7 @@ Every time `user` state is triggered to `advance` to another state, it will `go_
 	* Input: "抽妹子"
 		* Reply: a photo of beauty and "才一張你一定覺得不夠!"
 		* Input: "對阿"
-			* Reply: three photos of beauty and go_back to user
+			* Reply: three photos of beauty and "看太多了換其他事做吧" and go_back to user
 	* Input: "來首音樂吧"
 		* Reply: a music and "你覺得好聽嗎\n還是你想看youtube影片?"
 		* Input: "好聽"
